@@ -1,0 +1,23 @@
+.logoBikcraft {
+  width: 10rem;
+  padding: 4rem;
+}
+
+.menuLista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+
+.menuItem {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  margin: 0.7rem;
+  text-transform: uppercase;
+}
+
+.menuItem:hover{
+  border: solid red;
+}

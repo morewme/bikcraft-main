@@ -1,10 +1,10 @@
 # Bikcraft
 
-## Project state
-- initiating ✔️
-- planning ✔️
-- executing ✔️
-- closing...
+## Project state 🔴🟡🟢
+- initiating 🟢
+- planning 🟢
+- executing 🟡
+- closing 🔴
 
 ##
 You can preview the website here!

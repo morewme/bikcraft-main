@@ -1,15 +1,60 @@
 
-.display {
-  max-width: 1000px;
-  margin: auto;
+.fotoBicicleta {
+  max-width: 500px;
 }
 
+.secao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.nomeProduto {
+  font-size: 2rem;
+}
 
+.botao {
+  background-color: #ee2211;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
 
-
-footer {
+.produto {
   background-color: white;
-  text-align: center;
-  padding: 3rem;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  padding: 2.5rem;
+  text-align: end;
+}
+
+.vantagensBikcraft {
+  color: #c6c6c6;
+  display: grid;
+  font-size: 4rem;
+  text-align: end;
+  align-self: center;
+  text-transform: uppercase;
+  padding: 2.5rem;
+}
+
+.vantagens {
+  background-color: white;
+}
+
+.nomeVantagens {
+  font-weight: bold;
+}
+
+.grupoVantagens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.descricaoVantagens {
+  grid-column: 2;
 }

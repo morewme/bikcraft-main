@@ -17,6 +17,13 @@ header {
   text-align: center;
 }
 
-.fotoBicicleta {
-  width: 500px;
+.display {
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 3rem;
 }

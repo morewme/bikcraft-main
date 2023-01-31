@@ -3,6 +3,17 @@
   max-width: 500px;
 }
 
+.nomeProduto::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+  position: relative;
+  left: 362px;
+  top: -40px;
+}
+
 .secao {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,6 +29,10 @@
   color: white;
   padding: 1rem 2rem;
   text-transform: uppercase;
+}
+
+.botao:hover {
+  background-color: #900;
 }
 
 .produto {
@@ -38,10 +53,15 @@
   align-self: center;
   text-transform: uppercase;
   padding: 2.5rem;
-}
+} 
 
 .vantagens {
   background-color: white;
+  padding: 2rem;
+}
+
+.grupoVantagens:nth-child(odd){
+  background-color: #f7f7f7;
 }
 
 .nomeVantagens {
@@ -53,6 +73,10 @@
   grid-template-columns: auto 1fr;
   gap: 10px;
   padding: 1rem;
+}
+
+.grupoVantagens:hover {
+  border-left: 4px solid #ee2211;
 }
 
 .descricaoVantagens {

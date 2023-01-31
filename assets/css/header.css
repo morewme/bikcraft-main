@@ -21,4 +21,5 @@
 
 .menuItem:hover{
   border: solid red;
+  cursor: pointer;
 }

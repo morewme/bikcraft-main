@@ -15,6 +15,8 @@
 }
 
 .secao {
+  max-width: 1000px;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -46,10 +48,9 @@
 }
 
 .vantagensBikcraft {
-  color: #c6c6c6;
-  display: grid;
+  color: rgba(0, 0, 0, 0.2);
   font-size: 4rem;
-  text-align: end;
+  text-align: right;
   align-self: center;
   text-transform: uppercase;
   padding: 2.5rem;

@@ -48,12 +48,13 @@
 }
 
 .vantagensBikcraft {
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.3);
   font-size: 4rem;
   text-align: right;
   align-self: center;
   text-transform: uppercase;
   padding: 2.5rem;
+  background-image: url("/assets/img/onda.svg");
 } 
 
 .vantagens {
@@ -62,7 +63,7 @@
 }
 
 .grupoVantagens:nth-child(odd){
-  background-color: #f7f7f7;
+  background-color: #e7e7e7;
 }
 
 .nomeVantagens {

@@ -23,3 +23,9 @@
   border: solid red;
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .logoBikcraft {
+    padding: 2rem;
+  }
+}

@@ -19,6 +19,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
 .nomeProduto {
@@ -83,4 +84,34 @@
 
 .descricaoVantagens {
   grid-column: 2;
+}
+
+@media (max-width: 1000px) {
+
+  .secao {
+    max-width: 500px;
+    grid-template-columns: 1fr;
+  }
+
+  .nomeProduto::before {
+    left: 0px;
+    top: 0px;
+  }
+
+  .fotoBicicleta {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .secao {
+    grid-template-columns: auto;
+  }
+  .fotoBicicleta {
+    max-width: auto;
+  }
+  .vantagensBikcraft {
+    display:none;
+  } 
 }

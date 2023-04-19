@@ -1,4 +1,3 @@
-
 .fotoBicicleta {
   max-width: 500px;
 }
@@ -8,7 +7,7 @@
   display: block;
   width: 60px;
   height: 4px;
-  background-color: #ee2211;
+  background-color: var(--cor-destaque);
   position: relative;
   left: 362px;
   top: -40px;
@@ -27,19 +26,19 @@
 }
 
 .botao {
-  background-color: #ee2211;
+  background-color: var(--cor-destaque);
   border-radius: 4px;
-  color: white;
+  color: var(--cor-background-secundario);
   padding: 1rem 2rem;
   text-transform: uppercase;
 }
 
 .botao:hover {
-  background-color: #900;
+  background-color: var(--cor-destaque-efeito);
 }
 
 .produto {
-  background-color: white;
+  background-color: var(--cor-background-secundario);
   display: grid;
   gap: 20px;
   align-content: center;
@@ -59,12 +58,12 @@
 } 
 
 .vantagens {
-  background-color: white;
+  background-color: var(--cor-background-secundario);
   padding: 2rem;
 }
 
 .grupoVantagens:nth-child(odd){
-  background-color: #e7e7e7;
+  background-color: var(--cor-background-principal);
 }
 
 .nomeVantagens {
@@ -79,7 +78,7 @@
 }
 
 .grupoVantagens:hover {
-  border-left: 4px solid #ee2211;
+  border-left: 4px solid var(--cor-destaque);
 }
 
 .descricaoVantagens {
@@ -115,7 +114,7 @@
     font-size: 3rem;
   } 
   footer{
-    background-color: #e7e7e7;
+    background-color: var(--cor-background-principal);
   } 
 }
 
@@ -131,6 +130,6 @@
     font-size: 1rem;
   }
   footer{
-    background-color: white;
+    background-color: var(--cor-background-secundario);
   } 
 }

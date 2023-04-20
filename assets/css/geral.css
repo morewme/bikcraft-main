@@ -7,10 +7,10 @@
 }
 
 body {
-  color: var(--cor-texto-geral);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   background-color: var(--cor-background-principal);
+  color: var(--cor-texto-geral);
 }
 
 li {

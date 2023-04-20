@@ -28,7 +28,6 @@
 .botao {
   background-color: var(--cor-destaque);
   border-radius: 4px;
-  color: var(--cor-background-secundario);
   padding: 1rem 2rem;
   text-transform: uppercase;
 }
@@ -48,12 +47,12 @@
 }
 
 .vantagensBikcraft {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 4rem;
   text-align: right;
   align-self: center;
   text-transform: uppercase;
-  padding: 2.5rem;
+  padding: 1.9rem;
   background-image: url("/assets/img/onda.svg");
 } 
 

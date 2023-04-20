@@ -19,11 +19,21 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--cor-background-principal);
+  color: var(--cor-texto-geral);
 }
 
 
 footer {
   background-color: var(--cor-background-secundario);
   padding: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-texto-geral: #eee;
+    --cor-background-principal: #222;
+    --cor-background-secundario: #121212;
+    --cor-destaque: rgb(124, 17, 238);
+    --cor-destaque-efeito: rgb(92, 0, 153);
+  }
 }

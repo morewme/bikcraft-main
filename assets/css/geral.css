@@ -31,7 +31,7 @@ footer {
 @media (prefers-color-scheme: dark) {
   :root {
     --cor-texto-geral: #eee;
-    --cor-background-principal: #222;
-    --cor-background-secundario: #121212;
+    --cor-background-principal: #242427;
+    --cor-background-secundario: #1f1f21;
   }
 }
